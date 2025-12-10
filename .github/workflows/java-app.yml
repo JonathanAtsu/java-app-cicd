@@ -107,7 +107,7 @@ jobs:
      - name: Download JAR file artifact
        uses: actions/download-artifact@v4
        with:
-         name: geo_app-jar
+         name: utc_app-jar
          path: target/
     
      - name: Read secrets from Vault
