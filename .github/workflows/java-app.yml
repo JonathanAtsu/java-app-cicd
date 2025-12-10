@@ -93,7 +93,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: utc_app-jar
-          path: target/*.jar  
+          path: target/*.jar 
           
           
 #   deploy_jfrog:
